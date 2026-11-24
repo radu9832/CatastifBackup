@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="_u-Cm-jJ-m-KeNppMHAV" name="Page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xAcqNyRqtdsYK3nouY-8-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D9DEE3);strokeColor=light-dark(#000000,#89939D);fontColor=light-dark(#000000,#000000);align=left;verticalAlign=top;fontSize=19;fontStyle=1" value="CATASTIFBACKUP — SYSTEM BOUNDARY" vertex="1">
+          <mxGeometry height="520" width="920" x="125" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--21" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=classic;startFill=1;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--4">
+          <mxGeometry relative="1" x="0.0025" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--22" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="Reads/writes profiles&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(32, 32, 32));&quot;&gt;,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(32, 32, 32));&quot;&gt;&amp;nbsp;history and logs&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2129" y="2" as="geometry">
+            <mxPoint x="57" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--37" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--9">
+          <mxGeometry relative="1" x="-0.0305" as="geometry">
+            <Array as="points">
+              <mxPoint x="202.5" y="690" />
+              <mxPoint x="915" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--38" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="&lt;div&gt;Writes and verifies&lt;/div&gt;&lt;div&gt;backup snapshots&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6053" y="-1" as="geometry">
+            <mxPoint x="-31" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--39" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--40" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="optional access to GitHub" vertex="1">
+          <mxGeometry relative="1" x="-0.0109" y="-1" as="geometry">
+            <mxPoint x="46" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#1168BD);" value="&lt;p&gt;Standalone Application&lt;/p&gt;&lt;p&gt;[Application — WPF / CLI]&lt;/p&gt;&lt;p&gt;Local backups, profiles, scheduling and history&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="150" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--14" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=classic;startFill=1;strokeColor=light-dark(#000000,#64748B);fontColor=light-dark(#000000,#202020);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--4" value="Reads/writes controller&lt;div&gt;configuration, history and logs&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0909" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--27" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--28" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="&lt;div&gt;Publishes signed jobs&lt;/div&gt;&lt;div&gt;and retrieves results&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4052" y="-1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#1168BD);" value="&lt;p&gt;&lt;strong&gt;Fleet Controller&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[Application — WPF Management UI]&lt;/p&gt;&lt;p&gt;Central fleet administration, coordination and monitoring&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="480" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--18" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=classic;startFill=1;strokeColor=light-dark(#000000,#64748B);exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--4">
+          <mxGeometry relative="1" x="-0.0938" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--23" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="Reads/writes agent configuration,&lt;div&gt;&amp;nbsp;history and logs&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.225" y="3" as="geometry">
+            <mxPoint x="17" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--25" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--26" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="Writes and verifies&lt;div&gt;backup snapshots&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.261" y="1" as="geometry">
+            <mxPoint x="2" y="57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--29" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=classic;startFill=1;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--8">
+          <mxGeometry relative="1" x="0.0687" as="geometry">
+            <Array as="points">
+              <mxPoint x="915" y="600" />
+              <mxPoint x="750" y="600" />
+              <mxPoint x="750" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--30" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;rotation=0;fontColor=light-dark(#000000,#202020);" value="&lt;div&gt;Polls authorized jobs&lt;/div&gt;&lt;div&gt;Publishes heartbeats and results&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4718" y="-3" as="geometry">
+            <mxPoint x="3" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#1168BD);" value="&lt;p&gt;&lt;strong&gt;Fleet Agent&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[Application — Headless Worker]&lt;/p&gt;&lt;p&gt;Executes authorized fleet jobs and reports status&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="810" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#555555);" value="&lt;p&gt;&lt;strong&gt;Local State Store&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[File Store — Per Installation]&lt;/p&gt;&lt;p&gt;Profiles, configuration, execution history and logs&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="210" x="480" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--13" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="b1AFbOXpmuJ7zE9EyN7--1">
+          <mxGeometry relative="1" x="0.6786" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="75" />
+              <mxPoint x="90" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#08427B);" value="&lt;p&gt;&lt;strong&gt;Local User&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[Person]&lt;/p&gt;&lt;p&gt;Configures profiles, starts backups and views results&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="150" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--11" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#08427B);" value="&lt;p&gt;&lt;strong&gt;Fleet Administrator&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[Person]&lt;/p&gt;&lt;p&gt;Manages fleet policies, configurations and backup monitoring&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="480" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--12" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#64748B);strokeWidth=2;" target="b1AFbOXpmuJ7zE9EyN7--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--32" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeWidth=2;strokeColor=light-dark(#000000,#64748B);" target="b1AFbOXpmuJ7zE9EyN7--1">
+          <mxGeometry relative="1" x="0.0016" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="75" />
+              <mxPoint x="760" y="190" />
+              <mxPoint x="430" y="190" />
+              <mxPoint x="430" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--34" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#202020);" value="Launches scheduled&lt;div&gt;&amp;nbsp;headless backups&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1915" y="-2" as="geometry">
+            <mxPoint x="86" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#555555);" value="&lt;p&gt;&lt;b&gt;Windows Task Scheduler&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;[External Software System]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Launches scheduled backups and starts Fleet Agents at user logon&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="810" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#555555);" value="&lt;p&gt;&lt;strong&gt;Fleet Communication Share&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[External Storage / SMB]&lt;/p&gt;&lt;p&gt;Signed fleet jobs, heartbeats and execution results&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="480" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#555555);" value="&lt;p&gt;&lt;b&gt;Backup Destinations&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;[External Storage / Infrastructure]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Local disks and network shares storing backup snapshots&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="810" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#555555);" value="&lt;p&gt;&lt;strong&gt;GitHub Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[External Software System]&lt;/p&gt;&lt;p&gt;Hosts application versions, release notes and update packages&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="150" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--42" edge="1" parent="1" source="b1AFbOXpmuJ7zE9EyN7--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=light-dark(#000000,#8FAFCF);strokeWidth=2;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="b1AFbOXpmuJ7zE9EyN7--1">
+          <mxGeometry relative="1" x="-0.057" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="905" />
+              <mxPoint x="90" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--43" connectable="0" parent="b1AFbOXpmuJ7zE9EyN7--42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontFamily,fontSize,fontStyle,textOpacity,labelBorderColor,labelBorderWidth,labelBackgroundColor,defaultLabelBackgroundColor,labelPadding;defaultLabelBackgroundColor=page;labelPadding=0 4;fontColor=light-dark(#000000,#FFFFFF);" value="Planned: Writes backup snapshots to cloud storage" vertex="1">
+          <mxGeometry relative="1" x="-0.2072" y="-4" as="geometry">
+            <mxPoint x="-6" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#24374C,#24374C);strokeColor=light-dark(#000000,#8FAFCF);align=center;verticalAlign=middle;strokeWidth=2;" value="&lt;p&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Cloud Backup Storage&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;[External Cloud Storage — Planned]&lt;/p&gt;&lt;p&gt;Future cloud backup destination integration&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="810" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="b1AFbOXpmuJ7zE9EyN7--44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FFFFFF);textShadow=1;" value="&#xa;&lt;span&gt;&lt;span&gt;&lt;strong&gt;Architecture Note:&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt; Local State Store represents independent, per-installation file storage—not a centralized database.&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="30" width="280" x="10" y="950" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -14,6 +14,32 @@ The project aims to provide reliable, configurable backups through a graphical i
 
 CatastifBackup is currently in the design phase. Development of the new application has not yet begun, and no functional release is available.
 
+## Architecture
+
+CatastifBackup is being designed around three operating roles:
+a standalone application, a fleet controller, and a fleet agent.
+
+The following diagrams document the planned architecture.
+They describe design intentions, not functionality that has
+already been implemented.
+
+### C4 Level 1 — System Context
+
+An overview of CatastifBackup, its users, and the external
+systems it interacts with.
+
+![C4 Level 1 — System Context](Docs/Architecture/CatastifBackup%20-%20C4%20Level%201.svg)
+
+### C4 Level 2 — Container Diagram
+
+A closer look at the application's operating roles,
+local state storage, and communication mechanisms.
+
+![C4 Level 2 — Container Diagram](Docs/Architecture/CatastifBackup%20-%20C4%20Level%202.svg)
+
+Planned cloud integration is included as a future direction,
+not a completed feature.
+
 ## Background
 
 CatastifBackup originates from the experience gained while developing [BackupStation](https://github.com/radu9832/Backupstation-script), a PowerShell automation script created to back up files from production test stations.
